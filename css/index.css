@@ -1,0 +1,47 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 80px;
+    background-color: var(--color-main-blue);
+}
+.header_panel{
+    display: flex;
+}
+.logo {
+    font-size: 24px;
+    font-weight: var(--font-semi-bold);
+}
+.contacts_number{
+    font-size: 18px;
+    font-weight: var(--font-medium);
+    margin-bottom: 5px;
+}
+.contacts_time{
+    font-size: 12px;
+    font-weight: var(--font-normal);
+}
+.profile {
+    margin-left: 40px;
+}
+main {
+    background-color: var(--color-main-blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.search {
+    display: flex;
+    max-height: 60px;
+}
+.input {
+    margin: 1px;
+}
+.wherefrom {
+    
+}
