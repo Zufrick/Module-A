@@ -11,8 +11,15 @@
     --font-bold: 700;
     --font-color: #11263A;
     --color-main-blue: #4F89E3;
-    --color-gray: #333333;
+    --color-gray: #999999;
     --color-white: #fff;
+    --color-yellow: #FED84C;
+}
+body{
+    background-color: var(--color-main-blue);
+}
+a {
+    text-decoration: none;
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
