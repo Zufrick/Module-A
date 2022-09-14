@@ -51,9 +51,5 @@
     padding: 20px 0;
 }
 .registration_button{
-    background-color: var(--color-yellow);
-    font-weight: var(--font-medium);
-    padding: 15px;
-    font-size: 25px;
-    border-radius: 10px;
+
 }

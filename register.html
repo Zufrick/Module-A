@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset_css.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Aviasales</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo_container">
+            <a href="index.html"><h1 class="logo">AVIASALES</h1></a>
+        </div>
+        <div class="header_panel">      
+            <div class="contacts_container">
+                <p class="contacts_number">8 (800) 000-00-00</p>
+                <p class="contacts_time">Ежедневно с 9:00 до 20:00</p>
+             </div>
+            <div class="profile">
+                <a href="login.html"><img src="/img/profile-circle.png"></a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <h1 class="main_header">Регистрация</h1>
+        <form class="reg" action="" method="post">
+            <input class="input username" placeholder = "Логин" id="login" type="text" name="login">
+            <input class="input password" placeholder = "Пароль" id="password" type="password" name="password">
+            <input class="input re_password" placeholder = "Повторите пароль" id="re_password" type="password" name="re_password">
+            <input class="input email" placeholder = "Электронная почта" id="re_password" type="email" name="email">
+            <input class="input register" type="submit" value="Зарегистрироваться">
+        </form>
+    </main>
+    <div class="authorization">
+        <a href="login.html" class="authorization_button">Авторизироваться</a>
+    </div>
+</body>
+</html>
