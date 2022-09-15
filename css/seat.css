@@ -1,1 +1,111 @@
-{\rtf1}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    background-color: var(--color-white);
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+    height: 2000px;
+    padding: 10px 0;
+}
+.main_header_container {
+    margin: 10px 0 0 30px;
+    font-size: 32px;
+    font-weight: var(--font-bold);
+}
+.plane_seats {
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid var(--color-gray);
+    border-radius: 30px;
+}
+.plane_header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.front {
+    display: flex;
+    justify-content: center;
+}
+.behind {
+    display: flex;
+    justify-content: center;
+}
+.front_numbers {
+    text-align: center;
+    margin: 0 5px;
+    margin-bottom: 28px;
+}
+.front_numbers:last-child {
+    margin-bottom: 0;
+}
+.front_numbers:first-child {
+    margin-top: 15px;
+}
+.seat {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.seats {
+    padding: 20px;
+    margin: 2px;
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+}
+.fl {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 132px;
+}
+.seat_big {
+    background-color: var(--color-main-blue);
+}
+.seat_normal {
+    background-color: var(--color-yellow);
+}
+.exit {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.plane2 {
+    margin-left: 40px;
+}
+.seat_price_container {
+    display: flex;
+    align-items: center;
+}
+.seat_price {
+    margin-left: 10px;
+}
+.seat_price_container:first-of-type {
+    margin-top: 30px;
+}
+.buy {
+    margin-left: 20px;
+}
+.price {
+    font-size: 20px;
+    font-weight: var(--font-bold);
+}
+.total {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: var(--font-bold);
+}
+.pay {
+    margin-top: 30px;
+    padding: 10px 20px;
+    max-width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--color-main-blue);
+}
+#a1 {
+    background-color: var(--color-green);
+}
